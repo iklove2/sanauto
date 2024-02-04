@@ -1,0 +1,200 @@
+/* Reset and base styles  */
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    /*outline: none;*/
+}
+
+a:focus,
+a:active {
+    /* outline: none;*/
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+    /* color: inherit; */
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    display: block;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    max-width: 1900px;
+    min-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../pic/backgroundtop.webp);
+    background-repeat: no-repeat;
+}
+
+/* .top_img_town_test>a {
+    margin-left: 1335px;
+} */
+
+.top {
+    max-width: 1540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top>nav>ul {
+    display: flex;
+    gap: 60px
+}
+
+.top>nav>ul>li {
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: 24px;
+}
+
+.top>nav>ul>li>img {
+    width: 100px;
+}
+
+.top>button {
+    color: white;
+    display: block;
+    content: '';
+    font-size: 24px;
+    width: 250px;
+    height: 71px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 35px;
+    border-width: 2px;
+    border-style: double;
+    border-color: white;
+    background-color: brown;
+}
+
+.top_img_town {
+    margin-top: 50px;
+    padding-left: 100px;
+    max-width: 1130px;
+}
+
+.top_img_yours {
+    margin-left: 938px;
+    max-width: 912px;
+}
+
+.top_img_motobyke {
+    margin-top: -651px;
+    margin-right: -100px;
+}
